@@ -1,0 +1,135 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+}
+.header {
+    background-color: rgb(159, 197, 248) ;
+    color: white;
+    width: auto;
+    height: 80px;
+    display: flex;
+    justify-content:space-evenly;
+    
+}
+.header ul{
+    list-style: none;
+
+}
+.header h1 {
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 48px;
+}
+.cities {
+    width: 500px;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+}
+.cities a{
+    text-decoration: none;
+    color: white;
+}
+.city {
+    height: 100px;
+    width:1185px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: black;
+    border-style: solid;
+}
+.currentCity {
+    padding-left: 15px;
+    font-size: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.tempType {
+    margin-right: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.tempType select{
+    height: 30px;
+    width: 50px;
+}
+.forcast {
+    width: 1185px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.today, .tomorrow, .friday, .saturday {
+    width: 250px;
+    height: 320px;
+    background-color: rgb(238,238,238);
+    margin: 20px 0px 20px 0px;
+    text-align: center;
+
+}
+.today img, .tomorrow img, .friday img, .saturday img {
+    height: 150px;
+    border-radius: 50%;
+}
+.today h4, .tomorrow h4, .friday h4, .saturday h4{
+    margin: 10px;
+    font-size: 24px;
+}
+.today p, .tomorrow p, .friday p, .saturday p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.highAndLow {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    font-weight: 900px  ;
+}
+.high {
+    color: rgb(207,42,39);
+}
+.low{
+    color: rgb(43,120,228);
+}
+.cookie {
+    display: flex;
+    justify-content: center;
+    width: 1185px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(238,238,238);
+    border: 2px 2px 2px 2px;
+    border-color: black;
+    border-style: solid;
+    position: absolute;
+    bottom: 50px;
+    left: 365px;
+}
+.message{
+    display: block;
+    width: 800px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 40px;
+}
+.accept{
+    width: 100px;
+    height: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 20px;
+    background-color: #9fc5f8;
+    font-weight: 800;
+    box-shadow: 2px 2px 2px 0px black;
+}

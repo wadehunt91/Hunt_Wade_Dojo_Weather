@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather Forcast</title>
+</head>
+<body>
+    <div class="body">
+        <div class="header">
+            <h1>DojoWeather</h1>
+            <ul class="cities">
+                <li class="cityOne"><a href="#" onclick="alertOne()">Burbank</a></li>
+                <li class="cityTwo"><a href="#" onclick="alertOne()">Chicago</a></li>
+                <li class="cityThree"><a href="#" onclick="alertOne()">Dallas</a></li>
+            </ul>
+        </div>
+        <div class="city">
+            <h3 class="currentCity">San Jose</h3>
+            <div class="tempType">show temperature in <select id="tempTypes" onchange="conversion(this)"><option id="one">°C</option><option id="two">°F</option></select></div>
+        </div>
+        <div class="forcast">
+            <div class="today">
+                <h4>Today</h4>
+                <img src="./assets/some_rain.png" alt="rain clouds">
+                <p>some rain</p>
+                <div class="highAndLow">
+                    <div class="part">
+                        <span class="high" id="nine">24</span><span class="high">°</span>
+                    </div>
+                    <div class="part">
+                        <span class="low" id="ten">18</span><span class="low">°</span>
+                    </div>
+                </div>
+            </div>
+            <div class="tomorrow">
+                <h4>Tomorrow</h4>
+                <img src="./assets/some_sun.png" alt="sun">
+                <p>some sun</p>
+                <div class="highAndLow">
+                    <div class="part">
+                        <span class="high" id="three">27</span><span class="high">°</span>
+                    </div>
+                    <div class="part">
+                        <span class="low" id="four">19</span><span class="low">°</span>
+                    </div>
+                </div>
+            </div>
+            <div class="friday">
+                <h4>Friday</h4>
+                <img src="./assets/some_clouds.png" alt="clouds">
+                <p>some clouds</p>
+                <div class="highAndLow">
+                    <div class="part">
+                        <span class="high" id="five">21</span><span class="high">°</span>
+                    </div>
+                    <div class="part">
+                        <span class="low" id="six">16</span><span class="low">°</span>
+                    </div>
+                </div>
+            </div>
+            <div class="saturday">
+                <h4>Saturday</h4>
+                <img src="./assets/some_sun.png" alt="sun">
+                <p>some sun</p>
+                <div class="highAndLow">
+                    <div class="part">
+                        <span class="high" id="seven">26</span><span class="high">°</span>
+                    </div>
+                    <div class="part">
+                        <span class="low" id="eight">21</span><span class="low">°</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cookie">
+            <img src="./assets/cookie.png" alt="cookie" class="cookiePic">
+            <div class="message">
+                <h3>Stop! Cookie time</h3>
+                <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic. <a href="#">Read more...</a></p>
+            </div>
+            <button class="accept" onclick="deleteMessage()">I accept</button>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
